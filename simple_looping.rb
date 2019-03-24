@@ -77,7 +77,7 @@ number_of_times.time do
 end
 
   
-  for i in arrayRange do
+  for i in 1..number_of_times do
     puts phrase
   end
 end
