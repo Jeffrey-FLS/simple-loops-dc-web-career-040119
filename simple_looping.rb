@@ -60,23 +60,6 @@ def for_iterator(number_of_times)
   
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
-#   (1..100).each do |n|
-#     # n = 1
-#     # n = 2
-#     # n = 3
-#     # n = 4
-#     # n = 5
-# end
-
-# arrayRange = []
-# i = 1
-
-# number_of_times.time do
-#   arrayRange.push(i)
-#   i += 1
-# end
-
-  
   for i in 1..number_of_times do
     puts phrase
   end
