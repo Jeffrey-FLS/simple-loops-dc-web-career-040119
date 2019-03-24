@@ -62,9 +62,6 @@ def for_iterator(number_of_times)
   
   for i in number_of_times do
     puts phrase
-    phrase
-  
   end
-  
 end
 
