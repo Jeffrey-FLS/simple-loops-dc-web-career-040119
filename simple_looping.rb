@@ -68,13 +68,13 @@ def for_iterator(number_of_times)
 #     # n = 5
 # end
 
-arrayRange = []
-i = 1
+# arrayRange = []
+# i = 1
 
-number_of_times.time do
-  arrayRange.push(i)
-  i += 1
-end
+# number_of_times.time do
+#   arrayRange.push(i)
+#   i += 1
+# end
 
   
   for i in 1..number_of_times do
