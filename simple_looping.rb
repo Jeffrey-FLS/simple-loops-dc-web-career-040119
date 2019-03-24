@@ -1,4 +1,5 @@
 # REMEMBER: print your output to the terminal using 'puts'
+require 'pry'
 
 def loop_iterator(number_of_times)
   # Code your solution here using the "loop" keyword to puts out the below phrase
@@ -64,5 +65,7 @@ def for_iterator(number_of_times)
     puts phrase
     puts i
   end
+  
+  binding.pry
 end
 
