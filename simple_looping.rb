@@ -72,7 +72,8 @@ arrayRange = []
 i = 1
 
 number_of_times.time do
-  
+  arrayRange.push(i)
+  i += 1
 end
 
   
